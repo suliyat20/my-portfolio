@@ -372,6 +372,12 @@ nav .fas{
     nav .fas{
         display: block;
         font-size: 25px;
+        cursor: pointer;
+    }
+    nav .fa-times{
+        position: absolute;
+        top: 20px;
+        left: 20px;
     }
     nav ul{
         background: #ff004f;
@@ -380,8 +386,7 @@ nav .fas{
         right: -200px;
         width: 200px;
         height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
+        padding-top: 60px;
         transition: right 0.5s;
     }
     nav ul li{
